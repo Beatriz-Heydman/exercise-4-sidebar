@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>sidebar</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+  </head>
+  <body>
+    <main>
+      <div onclick="handleSidebar()" class="three_points">
+        <div class="ball"></div>
+      </div>
+      <div class="sidebar_container">
+        <div class="sidebar_content">
+          <div onclick="handleSidebar()" class="close_sidebar">
+            <i class="close_sidebar_icon fa-regular fa-x fa-s"></i>
+          </div>
+          <div class="group_link">
+            <i class="fa-solid fa-house"></i>
+            <a href="">Home</a>
+          </div>
+          <div class="group_link">
+            <i class="fa-solid fa-users"></i>
+            <a href="">Team</a>
+          </div>
+          <div class="group_link">
+            <i class="fa-regular fa-calendar-days"></i>
+            <a href="">Calendar</a>
+          </div>
+          <div class="group_link">
+            <i class="fa-regular fa-folder-open"></i>
+            <a href="">Documents</a>
+          </div>
+          <div class="group_link">
+            <i class="fa-solid fa-chart-column"></i>
+            <a href="">Reports</a>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script
+      src="https://kit.fontawesome.com/ac3d23dd5a.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="index.js" type="text/javascript"></script>
+  </body>
+</html>
