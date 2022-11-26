@@ -4,6 +4,6 @@ function handleSidebar() {
   if (sidebarContainer.style.right !== "0px") {
     sidebarContainer.style.right = "0px";
   } else {
-    sidebarContainer.style.right = "-350px";
+    sidebarContainer.style.right = "-300px";
   }
 }
